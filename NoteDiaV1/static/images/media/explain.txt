@@ -1,0 +1,14 @@
+1 2 3 4 5 6 7				|initial: 1   2   3   4   5   6   7     | initial:  1  2  3  4  5  6
+0 0 0 0 0 0 0				|step1:   0   0   0   0   0   0   0     |   step1:  3  4  5  1  1  2 
+					|step2:   0   2   0   0  -2   0   0     |(input array)
+					|step3:   0   2   0   0   2   0   0     |
+					|step4:   0   3   0   0   2   0  -1     |result:    3  7 12 13 14 16
+2-4 2					|                                       |
+					|result:  0   3   3   3   5   5   4     |
+5-7 4					|                                       |
+					|                                       |           
+2-6 1					|                                       |
+					|            (parital sum)              |         (prefix sum)
+					|                                       |
+					|                                       |
+					|                                       |
